@@ -32,7 +32,6 @@
     "standard-version": "^4.4.0"
   },
   "dependencies": {
-    "errno": "^0.1.7",
     "node-fetch": "^2.3.0"
   }
 }
