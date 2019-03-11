@@ -1,9 +1,9 @@
 {
-  "name": "httpfs",
-  "version": "0.0.1",
+  "name": "htfs",
+  "version": "0.0.0",
   "license": "MIT",
   "description": "Expose filesystem via HTTP and access it from the other side!",
-  "repository": "jesless/httpfs",
+  "repository": "jesless/htfs",
   "contributes": [
     "Pooya Parsa <pooya@pi0.ir>"
   ],

@@ -17,13 +17,13 @@ This module works best with [memory-fs](https://github.com/webpack/memory-fs).
 Install package:
 
 ```bash
-yarn add httpfs
+yarn add htfs
 ```
 
 OR
 
 ```bash
-npm install httpfs
+npm install htfs
 ```
 
 ## Server
@@ -31,7 +31,7 @@ npm install httpfs
 Serving real fs is not a good idea. In this example we serve a virtual filesystem.
 
 ```js
-const HTTPFSMiddleware = require('httpfs/lib/middleware')
+const HTTPFSMiddleware = require('htfs/lib/middleware')
 const express = require('express')
 const MFS = require('memory-fs')
 
@@ -58,7 +58,7 @@ Supported methods:
 - `readFile(path): Promise<String>`
 
 ```js
-const HTTPFSAClient = require('httpfs/lib/client')
+const HTTPFSAClient = require('htfs/lib/client')
 
 const fs = new HTTPFSAClient({
   endpoint: 'http://localhost:8080/mfs'
@@ -82,20 +82,20 @@ MIT. Made with 💖
 [standard-src]: https://flat.badgen.net/badge/code%20style/standard/green
 [standard-href]: https://standardjs.com
 
-[npm-v-src]: https://flat.badgen.net/npm/v/httpfs/latest
-[npm-v-href]: https://npmjs.com/package/httpfs
+[npm-v-src]: https://flat.badgen.net/npm/v/htfs/latest
+[npm-v-href]: https://npmjs.com/package/htfs
 
-[npm-dt-src]: https://flat.badgen.net/npm/dt/httpfs
-[npm-dt-href]: https://npmjs.com/package/httpfs
+[npm-dt-src]: https://flat.badgen.net/npm/dt/htfs
+[npm-dt-href]: https://npmjs.com/package/htfs
 
-[packagephobia-src]: https://flat.badgen.net/packagephobia/install/httpfs
-[packagephobia-href]: https://packagephobia.now.sh/result?p=httpfs
+[packagephobia-src]: https://flat.badgen.net/packagephobia/install/htfs
+[packagephobia-href]: https://packagephobia.now.sh/result?p=htfs
 
-[david-src]: https://flat.badgen.net/david/dep/jsless/httpfs
-[david-href]: https://david-dm.org/jsless/httpfs
+[david-src]: https://flat.badgen.net/david/dep/jsless/htfs
+[david-href]: https://david-dm.org/jsless/htfs
 
-[codecov-src]: https://flat.badgen.net/codecov/c/github/jsless/httpfs/master
-[codecov-href]: https://codecov.io/gh/jsless/httpfs
+[codecov-src]: https://flat.badgen.net/codecov/c/github/jsless/htfs/master
+[codecov-href]: https://codecov.io/gh/jsless/htfs
 
-[circleci-src]: https://flat.badgen.net/circleci/github/jsless/httpfs/master
-[circleci-href]: https://circleci.com/gh/jsless/httpfs
+[circleci-src]: https://flat.badgen.net/circleci/github/jsless/htfs/master
+[circleci-href]: https://circleci.com/gh/jsless/htfs
