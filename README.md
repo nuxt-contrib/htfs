@@ -1,15 +1,12 @@
-# 🇭TTP 🇫ilesystem
+# HTTP Filesystem
 
 [![Standard JS][standard-src]][standard-href]
 [![david dm][david-src]][david-href]
 [![codecov][codecov-src]][codecov-href]
 [![circleci][circleci-src]][circleci-href]
-
 [![npm version][npm-v-src]][npm-v-href]
 [![npm downloads][npm-dt-src]][npm-dt-href]
 [![package phobia][packagephobia-src]][packagephobia-href]
-
-### **NOTE** This module is under development and not ready for any production use!
 
 Expose filesystem via HTTP and access it from the other side!
 
@@ -51,7 +48,7 @@ mfs.writeFileSync('/test/file.txt', 'Works!')
 app.use('/mfs', HTTPFSMiddleware(mfs))
 ```
 
-You can now browse filesystem via a normal browser via http://localhost:8080/mfs/
+You can now browse filesystem with broweser: http://localhost:8080/mfs/
 
 ## Client
 
@@ -74,8 +71,8 @@ fs.readFile('/test/file.txt').then((contents) => {
 
 ### Options
 
-- `endpoint`: HTTP Endpoint of server
-- `maxAge`: Time for cache
+- `endpoint`:   Address endpoint of server
+- `maxAge`:     Time to keep requests in cache
 
 ## License
 
