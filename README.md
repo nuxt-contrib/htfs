@@ -1,12 +1,13 @@
 # HTTP Filesystem
 
+[![npm version][npm-v-src]][npm-v-href]
+[![npm downloads][npm-dt-src]][npm-dt-href]
+[![package phobia][packagephobia-src]][packagephobia-href]
+
 [![Standard JS][standard-src]][standard-href]
 [![david dm][david-src]][david-href]
 [![codecov][codecov-src]][codecov-href]
 [![circleci][circleci-src]][circleci-href]
-[![npm version][npm-v-src]][npm-v-href]
-[![npm downloads][npm-dt-src]][npm-dt-href]
-[![package phobia][packagephobia-src]][packagephobia-href]
 
 Expose filesystem via HTTP and access it from the other side!
 
