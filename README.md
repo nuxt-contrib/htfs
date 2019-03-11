@@ -71,8 +71,9 @@ fs.readFile('/test/file.txt').then((contents) => {
 
 ### Options
 
-- `endpoint`:   Address endpoint of server
-- `maxAge`:     Time to keep requests in cache
+#### `endpoint`
+
+Required. HTTP URL of server.
 
 ## License
 

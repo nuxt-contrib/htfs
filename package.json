@@ -33,7 +33,6 @@
   },
   "dependencies": {
     "errno": "^0.1.7",
-    "node-fetch": "^2.3.0",
-    "p-memoize": "^2.1.0"
+    "node-fetch": "^2.3.0"
   }
 }
