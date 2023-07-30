@@ -32,6 +32,6 @@
     "standard-version": "^4.4.0"
   },
   "dependencies": {
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^3.3.2"
   }
 }
